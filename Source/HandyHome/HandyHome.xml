@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidManifestUpdates>
+
+        <!-- Remove Default android.intent.action.MAIN -->
+        <loopElements tag="action">
+            <setStringFromAttribute result="actionName" tag="$" name="android:name" />
+
+            <setBoolIsEqual result="isMainAction" arg1="$S(actionName)" arg2="android.intent.action.MAIN" />
+
+            <if condition="isMainAction">
+                <true>
+                    <removeAttribute tag="$" name="android:name"/>
+                    <addAttribute tag="$" name="android:name" value="android.intent.action.VIEW"/>
+                </true>
+            </if>
+        </loopElements>
+
+        <!-- Remove Default android.intent.category.LAUNCHER -->
+        <loopElements tag="category">
+            <setStringFromAttribute result="actionName" tag="$" name="android:name" />
+
+            <setBoolIsEqual result="isLauncherCategory" arg1="$S(actionName)" arg2="android.intent.category.LAUNCHER" />
+
+            <if condition="isLauncherCategory">
+                <true>
+                    <removeElement tag="$"/>
+                </true>
+            </if>
+        </loopElements>
+
+        <!-- Add FlutterActivity -->
+        <addElements tag="application">
+            <activity android:name=".MainActivity" android:exported="true" android:theme="@style/UnrealSplashTheme">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN"/>
+                    <category android:name="android.intent.category.LAUNCHER"/>
+                </intent-filter>
+            </activity>
+<!--            <activity android:name="io.flutter.embedding.android.FlutterActivity" android:theme="@style/Theme.HandyHomeAndroid" android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:hardwareAccelerated="true" android:windowSoftInputMode="adjustResize"/>-->
+        </addElements>
+        
+    </androidManifestUpdates>
+
+    <buildGradleAdditions>
+        <insert>
+            dependencies {
+            implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
+            implementation 'androidx.core:core:1.2.0'
+            }
+        </insert>
+    </buildGradleAdditions>
+</root>
