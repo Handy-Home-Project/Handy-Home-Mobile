@@ -15,7 +15,7 @@ public class HandyHome : ModuleRules
 
 		if (Target.Platform == UnrealTargetPlatform.Android)
 		{
-			AdditionalPropertiesForReceipt.Add("AndroidPlugin", Path.Combine(ModuleDirectory, "HandyHome.xml"));
+			AdditionalPropertiesForReceipt.Add("AndroidPlugin", Path.Combine(ModuleDirectory, "HandyHomeAndroid_UPL.xml"));
 		}
 		
 		// Uncomment if you are using Slate UI

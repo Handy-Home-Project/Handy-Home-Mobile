@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.handy_home.flutter.handy_home_flutter",
+    "module": "flutter_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b8800d88be4866db1b15f8b954ab2573bba9960f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_debug",
+          "version": {
+            "requires": "1.0.0-b8800d88be4866db1b15f8b954ab2573bba9960f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_debug",
+          "version": {
+            "requires": "1.0.0-b8800d88be4866db1b15f8b954ab2573bba9960f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_debug",
+          "version": {
+            "requires": "1.0.0-b8800d88be4866db1b15f8b954ab2573bba9960f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_debug",
+          "version": {
+            "requires": "1.0.0-b8800d88be4866db1b15f8b954ab2573bba9960f"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_debug-1.0.aar",
+          "url": "flutter_debug-1.0.aar",
+          "size": 15581752,
+          "sha512": "66b005f6335445335236e507a57442c73d79ec73c786c4e110bd69405fdf64297963fed46ff791b67ada858ed7a18d8f6da66367d83f7be7731e35061ae79b1f",
+          "sha256": "9970e687709a76f665bb3f254e615059a4debb05de3dd9c164e5b5df975daa80",
+          "sha1": "503dd77660567870623f218d4a3f799b665c6b21",
+          "md5": "ede77d34978920a744340ad62bda253d"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-b8800d88be4866db1b15f8b954ab2573bba9960f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_debug",
+          "version": {
+            "requires": "1.0.0-b8800d88be4866db1b15f8b954ab2573bba9960f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_debug",
+          "version": {
+            "requires": "1.0.0-b8800d88be4866db1b15f8b954ab2573bba9960f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_debug",
+          "version": {
+            "requires": "1.0.0-b8800d88be4866db1b15f8b954ab2573bba9960f"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_debug",
+          "version": {
+            "requires": "1.0.0-b8800d88be4866db1b15f8b954ab2573bba9960f"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_debug-1.0.aar",
+          "url": "flutter_debug-1.0.aar",
+          "size": 15581752,
+          "sha512": "66b005f6335445335236e507a57442c73d79ec73c786c4e110bd69405fdf64297963fed46ff791b67ada858ed7a18d8f6da66367d83f7be7731e35061ae79b1f",
+          "sha256": "9970e687709a76f665bb3f254e615059a4debb05de3dd9c164e5b5df975daa80",
+          "sha1": "503dd77660567870623f218d4a3f799b665c6b21",
+          "md5": "ede77d34978920a744340ad62bda253d"
+        }
+      ]
+    }
+  ]
+}

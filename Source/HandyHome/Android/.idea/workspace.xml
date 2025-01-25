@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eddb1302-704b-49d2-b881-b16d06c00de6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.aar.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.aar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.aar.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.aar.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.module.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.module.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.module.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.module.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.pom.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.pom.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/1.0/flutter_debug-1.0.pom.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/maven-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/maven-metadata.xml.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/maven-metadata.xml.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/maven-metadata.xml.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_debug/maven-metadata.xml.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.aar.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.aar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.aar.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.aar.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.module.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.module.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.module.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.module.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.pom.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.pom.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/1.0/flutter_profile-1.0.pom.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/maven-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/maven-metadata.xml.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/maven-metadata.xml.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/maven-metadata.xml.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_profile/maven-metadata.xml.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.aar.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.aar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.aar.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.aar.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.module.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.module.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.module.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.module.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.pom.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.pom.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/1.0/flutter_release-1.0.pom.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/maven-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/maven-metadata.xml.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/maven-metadata.xml.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/maven-metadata.xml.sha256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/build/host/outputs/repo/com/handy_home/flutter/handy_home_flutter/flutter_release/maven-metadata.xml.sha512" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Build/Android/src/com/handyhome/app/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Build/Android/src/com/handyhome/app/OBBData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Build/Android/src/com/handyhome/app/OBBData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HandyHome.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HandyHome.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HandyHome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HandyHomeAndroid_UPL.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2s5abwcOwGo2Oqa30y3x7GxoHhV" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eddb1302-704b-49d2-b881-b16d06c00de6" name="Changes" comment="" />
+      <created>1737747965684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737747965684</updated>
+    </task>
+    <servers />
+  </component>
+</project>
