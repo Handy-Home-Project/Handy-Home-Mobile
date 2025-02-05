@@ -90,16 +90,16 @@ dependencyResolutionManagement {
         <copyDir src="$S(PluginDir)/Flutter/build/host/outputs" dst="$S(BuildDir)/libs/handy_home_flutter"/>
     </resourceCopies>
     
-    <gameActivityClassAdditions>
-        <insert>
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if (keyCode == KeyEvent.KEYCODE_BACK) {
-            this.finish();
-            return true;
-        }
-        return super.onKeyDown(keyCode, event);
-    }
-        </insert>
-    </gameActivityClassAdditions>
+<!--    <gameActivityClassAdditions>-->
+<!--        <insert>-->
+<!--    @Override-->
+<!--    public boolean onKeyDown(int keyCode, KeyEvent event) {-->
+<!--        if (keyCode == KeyEvent.KEYCODE_BACK) {-->
+<!--            this.finish();-->
+<!--            return true;-->
+<!--        }-->
+<!--        return super.onKeyDown(keyCode, event);-->
+<!--    }-->
+<!--        </insert>-->
+<!--    </gameActivityClassAdditions>-->
 </root>
