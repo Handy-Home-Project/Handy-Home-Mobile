@@ -136,6 +136,8 @@ Plugins/*/Binaries/*
 Android_ETC2
 Android_ASTC
 
+Source/HandyHome/Flutter/*
+
 # Builds
 Build/*
 

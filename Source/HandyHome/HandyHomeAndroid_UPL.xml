@@ -40,48 +40,48 @@
             <activity android:name=".FlutterMethodChannelActivity" android:theme="@style/UnrealSplashTheme" android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:hardwareAccelerated="true" android:windowSoftInputMode="adjustResize"/>
             <activity android:name="io.flutter.embedding.android.FlutterActivity" android:theme="@style/UnrealSplashTheme" android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:hardwareAccelerated="true" android:windowSoftInputMode="adjustResize"/>
         </addElements>
-        
+
     </androidManifestUpdates>
 
     <!--  Add to app:build.gradle  -->
     <buildGradleAdditions>
         <insert>
 
-String storageUrl = System.env.FLUTTER_STORAGE_BASE_URL ?: "https://storage.googleapis.com"
-repositories {
-    maven {
-        url '../../libs/handy_home_flutter/repo'
-    }
-    maven {
-        url "$storageUrl/download.flutter.io"
-    }
-}
+            String storageUrl = System.env.FLUTTER_STORAGE_BASE_URL ?: "https://storage.googleapis.com"
+            repositories {
+            maven {
+            url '../../libs/handy_home_flutter/repo'
+            }
+            maven {
+            url "$storageUrl/download.flutter.io"
+            }
+            }
 
 
-dependencies {
-    implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
-    implementation 'androidx.core:core:1.2.0'
-    debugImplementation 'com.handy_home.flutter.handy_home_flutter:flutter_debug:1.0'
-    releaseImplementation 'com.handy_home.flutter.handy_home_flutter:flutter_release:1.0'
-}
-            
+            dependencies {
+            implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
+            implementation 'androidx.core:core:1.2.0'
+            debugImplementation 'com.handy_home.flutter.handy_home_flutter:flutter_release:1.0'
+            releaseImplementation 'com.handy_home.flutter.handy_home_flutter:flutter_release:1.0'
+            }
+
         </insert>
     </buildGradleAdditions>
-    
+
     <!--  Add to project:settings.gradle  -->
     <settingsGradleAdditions>
         <insert>
 
-dependencyResolutionManagement {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
+            dependencyResolutionManagement {
+            repositories {
+            google()
+            mavenCentral()
+            }
+            }
 
         </insert>
     </settingsGradleAdditions>
-    
+
     <!--  Copy Build Files  -->
     <resourceCopies>
         <copyDir src="$S(PluginDir)/Android/java" dst="$S(BuildDir)/src/com/handyhome/app"/>
@@ -89,17 +89,17 @@ dependencyResolutionManagement {
         <copyDir src="$S(PluginDir)/Android/layout" dst="$S(BuildDir)/res/layout"/>
         <copyDir src="$S(PluginDir)/Flutter/build/host/outputs" dst="$S(BuildDir)/libs/handy_home_flutter"/>
     </resourceCopies>
-    
-<!--    <gameActivityClassAdditions>-->
-<!--        <insert>-->
-<!--    @Override-->
-<!--    public boolean onKeyDown(int keyCode, KeyEvent event) {-->
-<!--        if (keyCode == KeyEvent.KEYCODE_BACK) {-->
-<!--            this.finish();-->
-<!--            return true;-->
-<!--        }-->
-<!--        return super.onKeyDown(keyCode, event);-->
-<!--    }-->
-<!--        </insert>-->
-<!--    </gameActivityClassAdditions>-->
+
+    <!--    <gameActivityClassAdditions>-->
+    <!--        <insert>-->
+    <!--    @Override-->
+    <!--    public boolean onKeyDown(int keyCode, KeyEvent event) {-->
+    <!--        if (keyCode == KeyEvent.KEYCODE_BACK) {-->
+    <!--            this.finish();-->
+    <!--            return true;-->
+    <!--        }-->
+    <!--        return super.onKeyDown(keyCode, event);-->
+    <!--    }-->
+    <!--        </insert>-->
+    <!--    </gameActivityClassAdditions>-->
 </root>
