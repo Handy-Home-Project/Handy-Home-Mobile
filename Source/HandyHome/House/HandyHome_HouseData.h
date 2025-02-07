@@ -8,7 +8,7 @@
 /**
  * 
  */
-USTRUCT(Atomic, BlueprintType)
+USTRUCT()
 struct FWallData
 {
 	GENERATED_BODY()
@@ -16,13 +16,13 @@ struct FWallData
 	static const double WallHeight;
 	static const double WallThickness;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY()
 	FName WallName;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY()
 	FVector2D WallSize;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY()
 	FVector2D WallLocation;
 
 
@@ -36,25 +36,26 @@ public:
 
 };
 
-USTRUCT(Atomic, BlueprintType)
+USTRUCT()
 struct FRoomData
+{
+	GENERATED_BODY()
+
+	UPROPERTY()
+	TArray<FWallData> WallDataArray;
+};
+
+USTRUCT()
+struct FHouseData
 {
 	GENERATED_BODY()
 
 	static const double FloorThickness;
 
-	UPROPERTY(BlueprintReadOnly)
-	TArray<FWallData> WallDataArray;
-};
+	UPROPERTY()
+	TMap<FName, FRoomData> RoomDataMap;
 
-//USTRUCT(BlueprintType)
-//struct FHouseData
-//{
-//	GENERATED_BODY()
-//
-//	UPROPERTY(BlueprintReadOnly)
-//	FVector2f FloorData;
-//
-//
-//
-//};
+	int32 WallCount = 0;
+
+
+};

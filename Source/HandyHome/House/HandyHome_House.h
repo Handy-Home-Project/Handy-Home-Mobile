@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "HandyHome_HouseData.h"
 #include "HandyHome_House.generated.h"
 
 UCLASS()
@@ -11,6 +12,22 @@ class HANDYHOME_API AHandyHome_House : public AActor
 {
 	GENERATED_BODY()
 	
+	friend class UHandyHome_HouseBuilder;
+
+private:
+	FHouseData HouseData;
+
+
+
+public:
+	UPROPERTY(BlueprintReadOnly)
+	TObjectPtr<class UStaticMesh> CubeMesh;
+
+	UPROPERTY(BlueprintReadOnly)
+	TObjectPtr<class UMaterial> WallMaterial;
+
+	UPROPERTY(BlueprintReadOnly)
+	TArray<class UStaticMeshComponent*> WallArray;
 
 
 public:	
@@ -25,8 +42,7 @@ protected:
 
 
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+private:
+	void Build();
 
 };
