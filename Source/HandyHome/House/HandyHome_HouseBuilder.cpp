@@ -69,6 +69,11 @@ void UHandyHome_HouseBuilder::BuildHouse()
 				VertexPair[1]->AsNumber()
 			);
 
+			const FVector2D FirstVertexCoord = FVector2D(	
+				VertexPair[0]->AsNumber(),
+				VertexPair[1]->AsNumber()
+			);
+
 			//디버깅용 방 꼭지점 그리는 함수. 나중에 벽 생성 기능 완성되면 지울 것.
 			DrawDebugSphere(GetWorld(), FVector(PrevVertexCoord.X, PrevVertexCoord.Y, 0.0), 14.f, 16, FColor::Red, false, 4444.f);
 
@@ -81,7 +86,7 @@ void UHandyHome_HouseBuilder::BuildHouse()
 			{
 				VertexPair = (*VertexArray)[j]->AsArray();
 
-				const FVector2D CurVertexCoord = FVector2D(
+				FVector2D CurVertexCoord = FVector2D(
 					VertexPair[0]->AsNumber(),
 					VertexPair[1]->AsNumber()
 				);
@@ -100,6 +105,13 @@ void UHandyHome_HouseBuilder::BuildHouse()
 
 				PrevVertexCoord = CurVertexCoord;
 			}
+
+			RoomData->WallDataArray.Emplace(
+				FName(RoomName + FString::Printf(TEXT("_%d"), VertexArraySize)),
+				FVector2D(abs(PrevVertexCoord.X - FirstVertexCoord.X), abs(PrevVertexCoord.Y - FirstVertexCoord.Y)),
+				FVector2D((FirstVertexCoord.X + PrevVertexCoord.X) * 0.5, (FirstVertexCoord.Y + PrevVertexCoord.Y) * 0.5)
+			);
+			House->HouseData.WallCount++;
 
 			VertexArray->Reset();
 			RoomName.Reset();

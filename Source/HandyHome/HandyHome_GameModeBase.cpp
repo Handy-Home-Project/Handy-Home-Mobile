@@ -12,7 +12,6 @@ AHandyHome_GameModeBase::AHandyHome_GameModeBase()
 {
 	DefaultPawnClass = AHandyHome_Cameraman::StaticClass();
 	PlayerControllerClass = AHandyHome_CameramanController::StaticClass();
-	//GEngine->GameSingleton = nullptr;
 }
 
 void AHandyHome_GameModeBase::BeginPlay()

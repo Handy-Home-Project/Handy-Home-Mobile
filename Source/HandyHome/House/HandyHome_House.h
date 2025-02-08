@@ -27,7 +27,7 @@ public:
 	TObjectPtr<class UMaterial> WallMaterial;
 
 	UPROPERTY(BlueprintReadOnly)
-	TArray<class UStaticMeshComponent*> WallArray;
+	TArray<TObjectPtr<class AStaticMeshActor>> WallArray;
 
 
 public:	
